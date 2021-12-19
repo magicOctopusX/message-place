@@ -10,7 +10,7 @@ contract MessagePortal {
 
     event NewMessage(address indexed from, uint timestamp, string message);
 
-    //a struct is a custum data type where we can customise what we want to hold inside it
+    //a struct is a custom data type where we can customise what we want to hold inside it
     struct Message {
         string message; //the message the user sent
         address waver;  //the address of the user who waved
